@@ -98,7 +98,7 @@ public class BoundaryLeVillage {
 			question.append("3 - quitter l'application.");
 			choixUtilisateur = Clavier.entrerEntier(question.toString());
 			switch (choixUtilisateur) {
-			case 1:
+			case 1:	
 				boundaryChercherEtal.prendreEtal(nom);
 				break;
 			case 2:
