@@ -20,7 +20,7 @@ public class BoundaryPrendreEtal {
 			message.append(nomVendeur);
 			message.append(" mais il faut être un habitant de notre village pour commercer ici.\n");
 		} else {
-			message.append("Bonjour "+nomVendeur+", je vais regarder si je peux trouver un étal\n");
+			//message.append("Bonjour "+nomVendeur+", je vais regarder si je peux trouver un étal\n");
 						
 			if (!controlPrendreEtal.resteEtals()) {
 				message.append("Désolé ");

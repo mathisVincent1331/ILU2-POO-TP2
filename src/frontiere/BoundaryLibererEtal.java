@@ -22,10 +22,11 @@ public class BoundaryLibererEtal {
 			
 			if (etalOccupe.equals("true")) {
 				message.append("Vous avez vendu ");
-				message.append(donneesEtal[3]);
+				message.append(donneesEtal[4]);
 				message.append(" sur ");
+				message.append(donneesEtal[3]+" ");
 				message.append(donneesEtal[2]);
-				message.append(" "+donneesEtal[1]+".\n");
+				message.append(" \n");
 				
 				message.append("Au revoir ");
 				message.append(nomVendeur);
@@ -33,6 +34,7 @@ public class BoundaryLibererEtal {
 
 			}
 		}
+		System.out.println(message);
 	}
 
 }
